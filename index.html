@@ -81,8 +81,8 @@
           <span class="label">A REAL EXAMPLE</span>
           <h2>Meet Sally.</h2>
           <div class="story-content">
-            <p class="story-text">Sally shops for groceries every Wednesday at 5. She messaged me on WhatsApp and asked for help.</p>
-            <p class="story-text">Now every Wednesday at 4:30, I call her on WhatsApp, we go over what she needs, and I send her a ready-made shopping list before she leaves the house.</p>
+            <p class="story-text">Sally grocery shops every Wednesday at 5 while waiting for the kids. She kept forgetting things because she was always in a rush.</p>
+            <p class="story-text">She messaged me on WhatsApp. We figured out a plan together. Now every Wednesday at 4:30, I call her, we go over what she needs, and I send her a ready-made list before she leaves the house.</p>
             <p class="story-highlight">She told me once. I do it every week.</p>
           </div>
         </div>
@@ -94,30 +94,35 @@
             <rect x="110" y="18" width="60" height="6" rx="3" fill="rgba(245,239,230,0.12)"/>
 
             <!-- 1. Sally's message (right-aligned) -->
-            <rect x="82" y="46" width="146" height="48" rx="12" fill="#25D366"/>
-            <text x="92" y="66" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="white">I grocery shop Wed at 5.</text>
-            <text x="92" y="82" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="white">Help me make a list?</text>
+            <rect x="62" y="42" width="166" height="58" rx="12" fill="#25D366"/>
+            <text x="72" y="58" font-family="Inter, sans-serif" font-size="8.5" font-weight="500" fill="white">I grocery shop Wed at 5 while</text>
+            <text x="72" y="70" font-family="Inter, sans-serif" font-size="8.5" font-weight="500" fill="white">waiting for the kids. I keep</text>
+            <text x="72" y="82" font-family="Inter, sans-serif" font-size="8.5" font-weight="500" fill="white">forgetting stuff because I'm</text>
+            <text x="72" y="94" font-family="Inter, sans-serif" font-size="8.5" font-weight="500" fill="white">always in a rush.</text>
 
             <!-- 2. AI response (left-aligned) -->
-            <rect x="52" y="106" width="156" height="48" rx="12" fill="rgba(245,239,230,0.12)"/>
-            <text x="62" y="126" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="rgba(245,239,230,0.7)">Got it! I'll call you at 4:30</text>
-            <text x="62" y="142" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="rgba(245,239,230,0.7)">to plan the list with you.</text>
+            <rect x="52" y="112" width="164" height="48" rx="12" fill="rgba(245,239,230,0.12)"/>
+            <text x="62" y="132" font-family="Inter, sans-serif" font-size="8.5" font-weight="400" fill="rgba(245,239,230,0.7)">What if I call you at 4:45 and</text>
+            <text x="62" y="144" font-family="Inter, sans-serif" font-size="8.5" font-weight="400" fill="rgba(245,239,230,0.7)">we go over a quick list together?</text>
 
-            <!-- 3. Sally reply (right-aligned) -->
-            <rect x="128" y="166" width="100" height="32" rx="12" fill="#25D366"/>
-            <text x="140" y="187" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="white">Sounds good!</text>
+            <!-- 3. Sally negotiates (right-aligned) -->
+            <rect x="52" y="172" width="176" height="36" rx="12" fill="#25D366"/>
+            <text x="62" y="194" font-family="Inter, sans-serif" font-size="8.5" font-weight="500" fill="white">Sounds good, but can you make it 4:30?</text>
 
-            <!-- 4. Call indicator (left-aligned, from AI) -->
-            <rect x="52" y="212" width="136" height="32" rx="10" fill="rgba(201,168,76,0.2)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
-            <text x="64" y="232" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#c9a84c">📞 Wed 4:30 PM · 5 min</text>
+            <!-- 4. AI confirms (left-aligned) -->
+            <rect x="52" y="220" width="170" height="36" rx="12" fill="rgba(245,239,230,0.12)"/>
+            <text x="62" y="242" font-family="Inter, sans-serif" font-size="8.5" font-weight="400" fill="rgba(245,239,230,0.7)">Done. I'll call you every Wed at 4:30.</text>
 
-            <!-- 5. Shopping list (left-aligned, AI) -->
-            <rect x="52" y="258" width="140" height="100" rx="12" fill="rgba(245,239,230,0.12)"/>
-            <text x="64" y="278" font-family="Inter, sans-serif" font-size="8" font-weight="400" fill="rgba(245,239,230,0.6)">Thanks for chatting Sally!</text>
-            <text x="64" y="294" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="rgba(245,239,230,0.8)">Here's your shopping list:</text>
-            <text x="64" y="314" font-family="Inter, sans-serif" font-size="9" font-weight="300" fill="rgba(245,239,230,0.5)">☐ Chicken thighs</text>
-            <text x="64" y="328" font-family="Inter, sans-serif" font-size="9" font-weight="300" fill="rgba(245,239,230,0.5)">☐ Rice (running low)</text>
-            <text x="64" y="342" font-family="Inter, sans-serif" font-size="9" font-weight="300" fill="rgba(245,239,230,0.5)">☐ Broccoli, carrots</text>
+            <!-- 5. Call indicator -->
+            <rect x="52" y="270" width="136" height="32" rx="10" fill="rgba(201,168,76,0.2)" stroke="rgba(201,168,76,0.4)" stroke-width="1"/>
+            <text x="64" y="290" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#c9a84c">📞 Wed 4:30 PM · 5 min</text>
+
+            <!-- 6. Shopping list (left-aligned, AI) -->
+            <rect x="52" y="316" width="140" height="80" rx="12" fill="rgba(245,239,230,0.12)"/>
+            <text x="64" y="334" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="rgba(245,239,230,0.8)">Here's your shopping list:</text>
+            <text x="64" y="350" font-family="Inter, sans-serif" font-size="8.5" font-weight="300" fill="rgba(245,239,230,0.5)">☐ Chicken thighs</text>
+            <text x="64" y="364" font-family="Inter, sans-serif" font-size="8.5" font-weight="300" fill="rgba(245,239,230,0.5)">☐ Rice (running low)</text>
+            <text x="64" y="378" font-family="Inter, sans-serif" font-size="8.5" font-weight="300" fill="rgba(245,239,230,0.5)">☐ Broccoli, carrots</text>
 
             <!-- Sally character -->
             <circle cx="210" cy="430" r="20" fill="rgba(245,239,230,0.1)" stroke="rgba(245,239,230,0.2)" stroke-width="1.5"/>
@@ -141,19 +146,19 @@
       <div class="cases-grid">
         <div class="case">
           <p class="case-problem">"I keep oversleeping and I feel like my mornings are unproductive."</p>
-          <p class="case-solution">I'll call you at 6:30 every morning and we'll have a quick chat about what you'll do today.</p>
+          <p class="case-solution">What if I call you at 6:30 every morning and we have a quick chat about what you'll do today?</p>
         </div>
         <div class="case">
           <p class="case-problem">"I sent a proposal to a client and I don't want it to slip through the cracks."</p>
-          <p class="case-solution">I'll check in with you in 3 days. If they haven't replied, I'll remind you to follow up.</p>
+          <p class="case-solution">What if I check in with you in 3 days? If they haven't replied, I'll remind you to follow up.</p>
         </div>
         <div class="case">
           <p class="case-problem">"I'm trying to save money but I lose track of what I spend."</p>
-          <p class="case-solution">Just message me when you buy something. I'll keep a running total and send you a weekly summary.</p>
+          <p class="case-solution">What if you message me every time you buy something? I'll keep a running total and send you a weekly summary.</p>
         </div>
         <div class="case">
           <p class="case-problem">"My weeks feel chaotic and I never know what's coming."</p>
-          <p class="case-solution">I'll message you every Sunday night with a plan for the week. We'll adjust it together as things change.</p>
+          <p class="case-solution">What if I message you every Sunday night with a plan for the week? We can adjust it together as things change.</p>
         </div>
       </div>
     </div>
