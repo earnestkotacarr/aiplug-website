@@ -98,6 +98,7 @@ nav {
   font-weight: 700;
   letter-spacing: 3px;
   color: var(--color-text-light);
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 8px;
