@@ -425,7 +425,7 @@ nav {
 .story {
   background: var(--color-bg-dark);
   color: var(--color-text-light);
-  padding: 120px 0;
+  padding: 120px 0 80px;
 }
 
 .story h2 {
