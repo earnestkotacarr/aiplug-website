@@ -604,6 +604,60 @@ nav {
 }
 
 /* ──────────────────────────────
+   PRICING
+   ────────────────────────────── */
+.pricing {
+  background: var(--color-bg-dark);
+  color: var(--color-text-light);
+  padding: 120px 0;
+}
+
+.pricing h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--color-text-light);
+  margin-bottom: 20px;
+}
+
+.pricing .label {
+  color: var(--color-accent);
+}
+
+.pricing-sub {
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--color-muted-light);
+  line-height: 1.7;
+  max-width: 600px;
+  margin-bottom: 60px;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.pricing-title {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.pricing-item p {
+  color: var(--color-muted-light);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* ──────────────────────────────
    PLATFORMS / CTA
    ────────────────────────────── */
 .platforms {
@@ -831,6 +885,11 @@ footer {
   }
 
   .security-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .pricing-grid {
     grid-template-columns: 1fr;
     gap: 32px;
   }
