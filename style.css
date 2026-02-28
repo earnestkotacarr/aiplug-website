@@ -523,8 +523,8 @@ nav {
    SECURITY
    ────────────────────────────── */
 .security {
-  background: var(--color-bg-light);
-  color: var(--color-text-dark);
+  background: var(--color-bg-dark);
+  color: var(--color-text-light);
   padding: 120px 0;
 }
 
@@ -533,7 +533,7 @@ nav {
   font-size: clamp(28px, 4vw, 48px);
   font-weight: 700;
   letter-spacing: -0.025em;
-  color: var(--color-text-dark);
+  color: var(--color-text-light);
   margin-bottom: 56px;
 }
 
@@ -554,7 +554,7 @@ nav {
 }
 
 .security-item p {
-  color: var(--color-muted-dark);
+  color: var(--color-muted-light);
   font-size: 15px;
   font-weight: 300;
   line-height: 1.7;
@@ -607,8 +607,8 @@ nav {
    PRICING
    ────────────────────────────── */
 .pricing {
-  background: var(--color-bg-dark);
-  color: var(--color-text-light);
+  background: var(--color-bg-light);
+  color: var(--color-text-dark);
   padding: 120px 0;
 }
 
@@ -617,7 +617,7 @@ nav {
   font-size: clamp(28px, 4vw, 48px);
   font-weight: 700;
   letter-spacing: -0.025em;
-  color: var(--color-text-light);
+  color: var(--color-text-dark);
   margin-bottom: 20px;
 }
 
@@ -628,7 +628,7 @@ nav {
 .pricing-sub {
   font-size: 17px;
   font-weight: 300;
-  color: var(--color-muted-light);
+  color: var(--color-muted-dark);
   line-height: 1.7;
   max-width: 600px;
   margin-bottom: 60px;
@@ -651,7 +651,7 @@ nav {
 }
 
 .pricing-item p {
-  color: var(--color-muted-light);
+  color: var(--color-muted-dark);
   font-size: 15px;
   font-weight: 300;
   line-height: 1.7;
