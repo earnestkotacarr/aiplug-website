@@ -403,17 +403,16 @@ nav {
   padding: 40px;
 }
 
-.case-title {
-  font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--color-accent);
-  margin-bottom: 12px;
-  font-weight: 400;
+.case-problem {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--color-text-dark);
+  line-height: 1.6;
+  margin-bottom: 16px;
+  font-style: italic;
 }
 
-.case p {
+.case-solution {
   color: var(--color-muted-dark);
   font-size: 15px;
   font-weight: 300;
