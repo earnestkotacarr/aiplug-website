@@ -110,6 +110,23 @@ nav {
   object-fit: contain;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-beta {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
 .nav-cta {
   font-family: var(--font-mono);
   font-size: 11px;
