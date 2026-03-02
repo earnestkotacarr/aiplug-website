@@ -231,6 +231,15 @@ nav {
   flex-shrink: 0;
 }
 
+.hero-btn--text {
+  background: #5AC8FA;
+}
+
+.hero-btn--text:hover {
+  background: #4ab8ea;
+  transform: translateY(-2px);
+}
+
 .hero-btn--imessage {
   background: #34C759;
 }
@@ -711,9 +720,9 @@ nav {
 
 .platform-links {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 12px;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto 32px;
 }
 
@@ -731,6 +740,15 @@ nav {
 .platform-card-icon {
   width: 32px;
   height: 32px;
+}
+
+.platform-card--text {
+  background: #5AC8FA;
+}
+
+.platform-card--text:hover {
+  background: #4ab8ea;
+  transform: translateY(-2px);
 }
 
 .platform-card--imessage {
