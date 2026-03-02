@@ -285,6 +285,15 @@ nav {
   transform: translateY(-2px);
 }
 
+.hero-btn--messenger {
+  background: #0084FF;
+}
+
+.hero-btn--messenger:hover {
+  background: #0073e6;
+  transform: translateY(-2px);
+}
+
 .hero-or {
   font-size: 13px;
   color: rgba(255, 255, 255, 0.35);
@@ -720,7 +729,7 @@ nav {
 
 .platform-links {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 12px;
   max-width: 1000px;
   margin: 0 auto 32px;
@@ -793,6 +802,15 @@ nav {
 
 .platform-card--instagram:hover {
   background: #d63551;
+  transform: translateY(-2px);
+}
+
+.platform-card--messenger {
+  background: #0084FF;
+}
+
+.platform-card--messenger:hover {
+  background: #0073e6;
   transform: translateY(-2px);
 }
 
