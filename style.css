@@ -168,6 +168,8 @@ nav {
 }
 
 .hero-brand .label {
+  font-size: 14px;
+  letter-spacing: 2.5px;
   margin-bottom: 20px;
 }
 
@@ -201,6 +203,12 @@ nav {
   max-width: 500px;
   margin: 0 auto 40px;
   line-height: 1.6;
+}
+
+.hero-sub-emphasis {
+  font-size: clamp(20px, 2.5vw, 26px);
+  font-weight: 600;
+  color: var(--color-text-light);
 }
 
 /* Hero platform buttons — front and center */
